@@ -1,1 +1,30 @@
+********** JavaScript **********
+Event Driven Programming - js
 
+<script></script> - where js is written in html
+
+alert('Hello!'); - displays an alert with message hello
+
+function hello(//could take parameters){
+    //code goes here
+    }
+
+<button onclick='hello()'>click here</button> - onclick is an event that calls a fuction hello once the button is clicked
+
+let counter = 0; - defining a variable
+
+counter++, counter+=1 - incrementing by 1
+
+document.querySelector('h1').innerHTML = 'GoodBye'; - alters the html inside the h1 selected tag. querySelector return the first found result only
+
+if (document.querySelector('h1').innerHTML === 'hello')
+    do this e.g document.querySelector('h1').innerHTML = 'GoodBye';
+else
+    do this
+
+let heading = document.querySelector('h1');
+heading.innerHTML = 'goodbye' - that's entirely permissible
+
+const heading = 1 - use const when defining a constant
+
+alert()
